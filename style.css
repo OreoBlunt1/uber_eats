@@ -1,35 +1,165 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url(fonts/Roboto/Roboto-Regular.ttf);
+  font-family: "Roboto";
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Roboto-Black';
-    src: url(fonts/Roboto/Roboto-Medium.ttf);
+  font-family: "Roboto-Black";
+  src: url(fonts/Roboto/Roboto-Medium.ttf);
 }
 
 body {
-    margin: 0;
+  margin: 0;
+  font-family: "Roboto";
 }
 
 header {
-    position: fixed;
-    height: 72px;
-    width: 100%;
-    background-color: white;
-    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  position: fixed;
+  height: 72px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
 
 header > .container {
-    height: 100%;
+  height: 100%;
 }
 
 header > .container > .row {
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 8px 0px 8px;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8px 0px 8px;
 }
 
+.enter {
+  display: flex;
+  align-items: center;
+}
+
+.enter img {
+  margin-left: 27px;
+}
+
+.enter button {
+  font-family: "Roboto-Black";
+  font-size: 13px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: white;
+}
+
+@media screen and (max-width: 320px) {
+  .enter img {
+    display: none;
+  }
+}
+
+.search {
+  padding-top: 127px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  color: #626262;
+}
+
+.search input {
+  border: none;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  width: 100%;
+  border-bottom: 1px solid #757575;
+}
+
+.title {
+  display: block;
+  margin-top: 56px;
+  font-size: 22px;
+  color: #1d1d1d;
+}
+
+.products {
+  margin-top: 15px;
+}
+
+.card {
+  margin-bottom: 36px;
+}
+
+.card img {
+  display: flex;
+  width: 100%;
+  height: 256px;
+}
+
+.card .type-food {
+  font-size: 14px;
+  color: #626262;
+}
+
+.card .time {
+  font-size: 13px;
+}
+
+.blank {
+  height: 32px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1124px) {
+  .blank {
+    height: 64px;
+  }
+}
+
+footer {
+  padding-top: 16px;
+  background-color: #262626;
+}
+
+.white-logo {
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.white-logo .row {
+  height: 100%;
+}
+
+.social-links {
+    padding-top: 32px;
+    
+}
+
+.social-links .row {
+    
+    align-items: center;
+}
+
+.social-links .lang {
+    background: #3B3B3B;
+    border-radius: 2px;
+    justify-content: flex-end;
+   
+}
+
+.lang-logo {
+    margin-right: 16.28px;
+}
+
+.social-links select {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #3B3B3B;
+    color: white;
+}
 
 
