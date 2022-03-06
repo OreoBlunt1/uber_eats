@@ -9,13 +9,8 @@
 }
 
 body {
-<<<<<<< HEAD
   margin: 0;
   font-family: "Roboto";
-=======
-    margin: 0;
-    font-family: 'Roboto';
->>>>>>> d2899f0a5754b85c998f39faafd4522eb31da198
 }
 
 header {
@@ -149,7 +144,6 @@ footer {
     align-items: center;
 }
 
-<<<<<<< HEAD
 .social-links .lang {
     background: #3B3B3B;
     border-radius: 2px;
@@ -166,78 +160,6 @@ footer {
     padding-bottom: 12px;
     background: #3B3B3B;
     color: white;
-=======
-.enter {
-    display: flex;
-    align-items: center
 }
 
-.enter img {
-    margin-left: 27px;
-}
 
-.enter button {
-    font-family: 'Roboto-Black';
-    font-size: 13px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border: 1px solid #E0E0E0;
-    box-sizing: border-box;
-    border-radius: 2px;
-    background-color: white;
-}
-
-@media screen and (max-width: 320px) {
-    .enter img {
-        display: none;
-    }
-}
-
-.search {
-    padding-top: 127px;
-    padding-left: 8px;
-    padding-right: 8px;
-    font-family: 'Roboto';
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    color: #626262;
-    
-}
-
-.search input {
-    border: none;
-    mix-blend-mode: normal;
-    opacity: 0.5;
-    width: 100%;
-    border-bottom: 1px solid #757575;
-}
-
-.header1 {
-    display: block;
-    margin-top: 56px;
-    font-size: 22px;
-    color: #1D1D1D;
-}
-
-.products {
-    margin-top: 15px;
-}
-
-.card img {
-    display: flex;
-    width: 100%;
-    height: 256px;
->>>>>>> d2899f0a5754b85c998f39faafd4522eb31da198
-}
-
-.card .type-food {
-    font-size: 14px;
-    color: #626262;
-}
-
-.card .time {
-    font-size: 13px;
-}
