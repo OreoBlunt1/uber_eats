@@ -132,7 +132,6 @@ footer {
   
 }
 
-.white-logo .border {
   height: 1px;
   width: 100%;
   background: white;
@@ -142,33 +141,23 @@ footer {
 .white-logo .row {
   height: 100%;
   align-items: center;
-  justify-content: flex-start;
-  
 }
 
 .social-links {
-    padding-top: 32px;  
-    height: 100%;  
 }
 
 .social-links .row {
   height: 100%;
-  background: #3B3B3B;
-
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .social-links select {
   padding-right: 52px;
   border: none;
-  margin-left: 16.48px;
 }
 
 .social-links .lang {
   padding-top: 12px;
   padding-bottom: 12px;
-  
 }
 
 
